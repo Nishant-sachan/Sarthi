@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="cart_js.js"></script>
+</head>
+<body>
+    <form name="f" style="background-color: rgb(255, 192, 249);">
+        <table width="100%" border="2" bgcolour="blue">
+            <tr>
+                <th>Book name
+                </th>
+                <th>Price</th>
+                <th>quantinty</th>
+                <th>Amount</th>
+                </tr>
+            <tr>
+                <td><input type="text" name ="t1" value=""/></td>
+                <td>Rs. <input type="text" name ="t2" value=""/></td>
+                <td><input type="text" name ="t3" value=""/></td>
+                <td>Rs.<input type="text" name="a1" onfocus="one()" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name ="t4" value=""/></td>
+                <td>Rs. <input type="text" name ="t5" value=""/></td>
+                <td><input type="text" name ="t6" value=""/></td>
+                <td>Rs. <input type="text" name ="a2" onfocus="two()"/></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right"><b>Total Amount </b></td>
+                <td><input type="text" name="a3" value="" onfocus="add()" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
